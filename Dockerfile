@@ -1,4 +1,4 @@
-ROM python:3
+FROM python:3
 
 RUN pip install --upgrade pip && \
 pip install pysnmp
