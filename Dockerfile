@@ -1,6 +1,8 @@
-FROM python:2
+# Set the base image
+FROM renancamargo/telepot
 
-RUN pip install --upgrade pip && \
-pip install argparse pysnmp==4.3.8
+# File Author / Maintainer
+MAINTAINER Renan Camargo
 
+# Expose ports
 EXPOSE 162/UDP
